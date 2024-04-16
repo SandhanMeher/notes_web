@@ -1,13 +1,10 @@
 import React from "react";
 import {
   AlertDialog,
-  AlertDialogAction,
   AlertDialogCancel,
   AlertDialogContent,
-  AlertDialogDescription,
   AlertDialogFooter,
   AlertDialogHeader,
-  AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { useState } from "react";
@@ -44,6 +41,7 @@ export default function SearchALertDialog() {
               placeholder=" Search Notes..."
               className="bg-black text-white lg:mr-5 mb-6 max-sm:bg-white max-sm:text-black font-bold text-lg "
               onKeyUp={handleInputChange}
+              autoFocus
             />
             <div className=" w-full h-20 lg:h-32 lg:bg-slate-700  bg-black outline outline-2 outline-white rounded-lg px-5 overflow-y-auto flex flex-col items-center  ">
               {filteredItems.map((eleme, index) => (
