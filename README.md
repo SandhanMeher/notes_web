@@ -1,6 +1,6 @@
 # Notes Web
 
-**Notes Web** is a note-taking application built with React and Vite, featuring user authentication, note management, and categorization. Users can create, edit, search, and download their notes. 
+**Notes Web** is a note-taking application built with React and Vite, featuring user authentication, note management, and categorization. Users can create, edit, search, and download their notes.
 
 ## Features
 
@@ -23,6 +23,10 @@
 - **Backend (Planned):**
   - Express.js
   - MongoDB
+
+## Live Demo
+
+Check out the live demo of the project at: [Notes Web](https://sandhanmeher.github.io/pages/)
 
 ## Getting Started
 
